@@ -116,4 +116,19 @@ img {
 
 .img-container {
     margin-right: 20%;
+    text-align: center;
+}
+
+.article-link {
+    text-decoration: none;
+    color: var(--l-green);
+    margin-top: 5%;
+}
+
+.article-link:hover {
+    color: var(--d-green);
+}
+
+p {
+    margin-top: 5%;
 }

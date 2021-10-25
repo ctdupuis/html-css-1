@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Amaranth', cursive;
+}
+
+:root {
+    --d-green: #093824;
+    --l-green: #6C9A8B;
+}
+
+.banner {
+    background-color: var(--d-green);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo-container {
+    width: 21%;
+}
+
+.logo {
+    color: whitesmoke;
+    margin-left: 3%;
+}
+
+nav {
+    height: 30px;
+}
+
+.nav-container {
+    background-color: var(--l-green);
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.nav-item {
+    color: whitesmoke;
+    margin-right: 2%;
+}
+
+.nav-item:hover {
+    color: var(--d-green);
+    cursor: pointer;
+}
+
+.auth-container {
+    display: flex;
+    width: 10%;
+}
+
+.auth-item {
+    color: whitesmoke;
+    margin-right: 8%;
+}
+
+.auth-item a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.auth-item a:hover {
+    color: var(--l-green);
+}
